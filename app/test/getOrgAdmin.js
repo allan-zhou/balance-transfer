@@ -43,7 +43,8 @@ function readAllFiles(dir) {
     return cert;
 }
 
+exports.getOrgAdmin = getOrgAdmin;
 
-getOrgAdmin('org1').then((data) => {
-    console.log(data.toString());
-});
+// getOrgAdmin('org1').then((data) => {
+//     console.log(data.toString());
+// });

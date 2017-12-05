@@ -75,3 +75,11 @@ exports.clients = clients;
 exports.channels = channels;
 exports.caClients = caClients;
 exports.getKeyStoreForOrg = getKeyStoreForOrg;
+
+
+// 测试
+// for (var key in channels) {
+//     console.log(channels[key].getOrderers());
+//     console.log(channels[key].getOrganizations());
+//     console.log(channels[key].getPeers());
+// }
